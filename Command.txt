@@ -1,0 +1,2 @@
+Creating virtual env - python -m venv <env name> 
+Activating - run path <env name>/Scripts/activate.bat
