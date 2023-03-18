@@ -1,3 +1,12 @@
 Creating virtual env - python -m venv <env name> 
 Activating - run path <env name>/Scripts/activate.bat
 python manage.py runserver 0.0.0.0:8000
+
+Create migrations whenever change in the model
+python manage.py makemigrations profiles_api
+
+Then to make all the migrations run
+python manage.py migrate
+
+Create superuser
+python manage.py createsuperuser 
